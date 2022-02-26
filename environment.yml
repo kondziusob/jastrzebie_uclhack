@@ -1,0 +1,25 @@
+name: jastrzebie_uclhack
+channels: 
+  - conda-forge
+dependencies:
+  - python>=3.9
+  - pip>=21.0
+  - addict
+  - descartes
+  - gdspy>=1.5.2
+  - geopandas
+  - ipython
+  - matplotlib
+  - numpy
+  - pandas
+  - pint
+  - pyepr-quantum>=0.8.5.3
+  - pygments
+  - pyside2
+  - qutip
+  - scipy
+  - shapely
+  - jupyter
+  - scqubits
+  - pip:
+    - qiskit[visualization]
